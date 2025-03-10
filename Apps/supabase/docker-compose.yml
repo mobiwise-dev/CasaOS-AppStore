@@ -747,7 +747,7 @@ services:
           description:
             en_us: The Postgres password
             fr_fr: Le mot de passe Postgres
-        - containre: PGDATABASE
+        - container: PGDATABASE
           description:
             en_us: The Postgres database
             fr_fr: La base de données Postgres
@@ -759,7 +759,7 @@ services:
           description:
             en_us: The JWT secret
             fr_fr: Le secret JWT
-        - container: JWT_EXPIRY
+        - container: JWT_EXP
           description:
             en_us: The JWT expiry
             fr_fr: L'expiration JWT
@@ -882,7 +882,6 @@ services:
           description:
             en_us: The maximum client connections for Pooler
             fr_fr: Les connexions client maximales pour Pooler
-        - container:
 
 volumes:
   db-config:
