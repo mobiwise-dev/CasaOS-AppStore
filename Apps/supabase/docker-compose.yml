@@ -19,10 +19,10 @@ x-casaos:
     en_us: Supabase is an open-source alternative to Firebase, providing authentication, databases, storage, and serverless functions.
     fr_fr: Supabase est une alternative open-source à Firebase, offrant authentification, bases de données, stockage et fonctions serverless.
   developer: Supabase
-  icon: https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/supabase-logo-icon.png
+  icon: https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-logo-icon.png
   screenshot_link:
-    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/supabase-table-editor.webm
-    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/supabase-table-editor-light.webm
+    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-table-editor.webm
+    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-table-editor-light.webm
   tagline:
     en_us: Open-source alternative to Firebase
     fr_fr: Une alternative open-source à Firebase
