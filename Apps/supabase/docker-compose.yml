@@ -8,32 +8,6 @@
 
 name: supabase
 
-x-casaos:
-  architectures:
-    - amd64
-    - arm
-    - arm64
-  author: MobiWise
-  category: Backup
-  description:
-    en_us: Supabase is an open-source alternative to Firebase, providing authentication, databases, storage, and serverless functions.
-    fr_fr: Supabase est une alternative open-source à Firebase, offrant authentification, bases de données, stockage et fonctions serverless.
-  developer: Supabase
-  icon: https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-logo-icon.png
-  screenshot_link:
-    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-table-editor.webm
-    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-table-editor-light.webm
-  tagline:
-    en_us: Open-source alternative to Firebase
-    fr_fr: Une alternative open-source à Firebase
-  thumbnail: https://yourdomain.com/supabase/thumbnail.png
-  main: studio # The main service (studio) will open via the port defined below
-  title:
-    en_us: Supabase
-  index: /
-  port_map: "3001" # The port on which CasaOS will display the studio interface
-  scheme: http
-
 services:
   #############################################################################
   # Supabase Studio (interface principale)
@@ -450,3 +424,32 @@ services:
 
 volumes:
   db-config:
+
+#############################################################################
+# CasaOS AppStore metadata
+#############################################################################
+x-casaos:
+  architectures:
+    - amd64
+    - arm
+    - arm64
+  author: MobiWise
+  category: Backup
+  description:
+    en_us: Supabase is an open-source alternative to Firebase, providing authentication, databases, storage, and serverless functions.
+    fr_fr: Supabase est une alternative open-source à Firebase, offrant authentification, bases de données, stockage et fonctions serverless.
+  developer: Supabase
+  icon: https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-logo-icon.png
+  screenshot_link:
+    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-table-editor.webm
+    - https://cdn.jsdelivr.net/gh/mobiwise-dev/CasaOs-AppStore/Apps/supabase/supabase-table-editor-light.webm
+  tagline:
+    en_us: Open-source alternative to Firebase
+    fr_fr: Une alternative open-source à Firebase
+  # thumbnail: https://yourdomain.com/supabase/thumbnail.png
+  main: studio # The main service (studio) will open via the port defined below
+  title:
+    en_us: Supabase
+  index: /
+  port_map: "3001" # The port on which CasaOS will display the studio interface
+  scheme: http
